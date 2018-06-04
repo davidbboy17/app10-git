@@ -1,0 +1,574 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--<script src="js/acciones.js"></script>-->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/img1.jpg','imagenes/img3.png','imagenes/img9.jpg','imagenes/img10.jpg','imagenes/img13.jpg','imagenes/img17.png')">
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 		data-back-btn-theme="a">
+		<h1>Base de Datos Simples y Base de datos Avanzadas</h1>
+	</div>
+    
+    
+    <div data-role="main" class="ui-content">
+	   <div data-role="collapsible" data-content-theme="false">
+		   <h1>Datos del Desarrollador</h1>
+	         <div>
+             <h3>Nombre:</h3>
+             <h4>Hernández Ochoa José David</h4>
+             <h4>4° "G"</h4>
+             <h3>Docente:</h3>
+             <h4>José Antonio Gomez Hernández</h4>
+			 </div>
+       </div>
+    </div>
+    
+    
+    <div>
+	   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Base de Datos Simple</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Base de Datos avanzadas</h2>
+			</a>
+		  </li>
+        </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+        <div>
+           <h4>App 10 <br> José David Hernandez Ochoa</h4>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Base de Datos Simples</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/img1.jpg" alt="img1" title="img1" id="wows1_0"/></li>
+		<li><img src="data1/images/img2.jpg" alt="img2" title="img2" id="wows1_1"/></li>
+		<li><img src="data1/images/img3.png" alt="img3" title="img3" id="wows1_2"/></li>
+		<li><img src="data1/images/img4.jpg" alt="img4" title="img4" id="wows1_3"/></li>
+		<li><img src="data1/images/img5.png" alt="img5" title="img5" id="wows1_4"/></li>
+		<li><img src="data1/images/img6.png" alt="img6" title="img6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/img7.jpg" alt="http://wowslider.com/" title="img7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/img8.jpg" alt="img8" title="img8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="img1"><span><img src="data1/tooltips/img1.jpg" alt="img1"/>1</span></a>
+		<a href="#" title="img2"><span><img src="data1/tooltips/img2.jpg" alt="img2"/>2</span></a>
+		<a href="#" title="img3"><span><img src="data1/tooltips/img3.png" alt="img3"/>3</span></a>
+		<a href="#" title="img4"><span><img src="data1/tooltips/img4.jpg" alt="img4"/>4</span></a>
+		<a href="#" title="img5"><span><img src="data1/tooltips/img5.png" alt="img5"/>5</span></a>
+		<a href="#" title="img6"><span><img src="data1/tooltips/img6.png" alt="img6"/>6</span></a>
+		<a href="#" title="img7"><span><img src="data1/tooltips/img7.jpg" alt="img7"/>7</span></a>
+		<a href="#" title="img8"><span><img src="data1/tooltips/img8.jpg" alt="img8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+    <br><br>
+        <div>
+	   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Base de Datos</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Modelo de Base de Datos</h2>
+			</a>
+		  </li>
+          <li class="ui-first-child ui-last-child">
+			<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Aplicaciones de Base de Datos</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Diseño de la Base de Datos</h2>
+			</a>
+		  </li>
+        </ul>
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+                     
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Base de Datos Avanzadas</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/img12.png" alt="img12" title="img12" id="wows2_0"/></li>
+		<li><img src="data2/images/img13.jpg" alt="img13" title="img13" id="wows2_1"/></li>
+		<li><img src="data2/images/img11.png" alt="img11" title="img11" id="wows2_2"/></li>
+		<li><img src="data2/images/img9.jpg" alt="img9" title="img9" id="wows2_3"/></li>
+		<li><img src="data2/images/img10.jpg" alt="img10" title="img10" id="wows2_4"/></li>
+		<li><img src="data2/images/img14.jpg" alt="img14" title="img14" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/img15.jpg" alt="wowslider.com" title="img15" id="wows2_6"/></a></li>
+		<li><img src="data2/images/img16.png" alt="img16" title="img16" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="img12"><span><img src="data2/tooltips/img12.png" alt="img12"/>1</span></a>
+		<a href="#" title="img13"><span><img src="data2/tooltips/img13.jpg" alt="img13"/>2</span></a>
+		<a href="#" title="img11"><span><img src="data2/tooltips/img11.png" alt="img11"/>3</span></a>
+		<a href="#" title="img9"><span><img src="data2/tooltips/img9.jpg" alt="img9"/>4</span></a>
+		<a href="#" title="img10"><span><img src="data2/tooltips/img10.jpg" alt="img10"/>5</span></a>
+		<a href="#" title="img14"><span><img src="data2/tooltips/img14.jpg" alt="img14"/>6</span></a>
+		<a href="#" title="img15"><span><img src="data2/tooltips/img15.jpg" alt="img15"/>7</span></a>
+		<a href="#" title="img16"><span><img src="data2/tooltips/img16.png" alt="img16"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+    <br><br>
+      <div>
+	   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Modelación avanzada de base de datos</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Programación avanzada TRANSACT SQL</h2>
+			</a>
+		  </li>
+          <li class="ui-first-child ui-last-child">
+			<a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Bases de datos XML</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Seguridad y Restauración en SQL SERVER</h2>
+			</a>
+		  </li>
+          <li class="ui-first-child ui-last-child">
+			<a href="#Pagina13" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Bases de datos en aplicaciones móviles</h2>
+			</a>
+		  </li>
+        </ul>
+      </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Base de Datos</h1>
+    </div>
+    <div data-role="content" align="center">
+       <div data-role="collapsible" data-content-theme="false">
+		   <h1>Informacion Extra</h1>
+	     <div>
+           <div style="width:40%;">
+             <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+              <li class="ui-first-child ui-last-child">
+                 <a href="http://www.maestrosdelweb.com/que-son-las-bases-de-datos/" target="_self" data-role="button">
+                     <h2>Mas Info</h2>
+                 </a>
+              </li>
+             </ul>
+           </div>
+        </div>
+       </div>
+        
+        
+       <div>
+        <p>Una base de datos se puede definir como un conjunto de información relacionada que se encuentra agrupada ó estructurada.<p>
+        <p>La base de datos es un sistema formado por un conjunto de datos almacenados en discos que permiten el acceso directo a ellos y un conjunto de programas que manipulen ese conjunto de datos.</p>
+        <p>Cada base de datos se compone de una o más tablas que guarda un conjunto de datos. Cada tabla tiene una o más columnas y filas. Las columnas guardan una parte de la información sobre cada elemento que queramos guardar en la tabla, cada fila de la tabla conforma un registro.</p> 
+        <p>Los Sistemas de Gestión de Base de Datos (en inglés DataBase Management System) son un tipo de software muy específico, dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. Se compone de un lenguaje de definición de datos, de un lenguaje de manipulación de datos y de un lenguaje de consulta.</p>       
+       </div>
+       <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus1','','imagenes/img1.jpg',1)"><img src="imagenes/img2.jpg" width="70%" height="60%" id="sus1"></a> 
+       </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Modelo de Base de Datos</h1>
+    </div>
+    <div data-role="content" align="center">
+        <div data-role="collapsible" data-content-theme="false">
+		   <h1>Informacion Extra</h1>
+	     <div>
+           <div style="width:40%;">
+             <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+              <li class="ui-first-child ui-last-child">
+                 <a href="https://www.lucidchart.com/pages/es/qu%C3%A9-es-un-modelo-de-base-de-datos" target="_self" data-role="button">
+                     <h2>Mas Info</h2>
+                 </a>
+              </li>
+             </ul>
+           </div>
+        </div>
+       </div>
+       
+       <div>
+         <p>Un modelo de base de datos muestra la estructura lógica de la base, incluidas las relaciones y limitaciones que determinan cómo se almacenan los datos y cómo se accede a ellos. Los modelos de bases de datos individuales se diseñan en base a las reglas y los conceptos de cualquier modelo de datos más amplio que los diseñadores adopten. La mayoría de los modelos de datos se pueden representar por medio de un diagrama de base de datos acompañante.</p>
+         <h3>Tipos de modelos de bases de datos</h3>
+         <p>+Modelo de base de datos jerárquico<br>
++Modelo relacional<br>
++Modelo de red<br>
++Modelo de base de datos orientado a objetos<br>
++Modelo entidad-relación<br>
++Modelo de documentos<br>
++Modelo entidad-atributo-valor<br>
++Esquema de estrella</p>
+       </div>
+       <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus2','','imagenes/img3.png',1)"><img src="imagenes/img4.jpg" width="70%" height="60%" id="sus2"></a> </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Aplicaciones de Base de Datos</h1>
+    </div>
+    <div data-role="content" align="center">
+       <div><img src="imagenes/img5.png" width="70%" height="60%"></div>
+      <div>
+        <p>Las aplicaciones de base de datos son programas de software diseñados para recoger, gestionar y difundir información de manera eficiente. Muchos propietarios de viviendas y pequeñas empresas crean bases de datos simples, con la información contacto de los clientes y listas de correo con software fácil de usar como Microsoft </p>
+        <p>*Access <br>*FileMaker Pro<br>*Oracle<br>*SQL Server<br>*FoxPro</p>
+        <p>Las aplicaciones de bases de datos se utilizan para buscar, ordenar, calcular, informar y compartir información. Las bases de datos pueden contener códigos para realizar cálculos matemáticos y estadísticos de los datos, para así apoyar las consultas enviadas por los usuarios. Estas aplicaciones proporcionan seguridad, a partir de la restricción del acceso a datos basada ​​en nombres de usuario y contraseñas. La mayoría de ellas pueden ser personalizadas con un lenguaje de programación de base de datos que automatice determinados tipos de trabajo.</p>
+       </div>
+       <div><img src="imagenes/img6.png" width="70%" height="60%"></div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Diseño de la Base de Datos</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+	   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Diseño Logico</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Diseño Fisico</h2>
+			</a>
+		  </li>
+        </ul>
+      </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Diseño Logico</h1>
+    </div>
+    <div data-role="content" align="center">
+       <div>
+         <p>Un esquema lógico es una descripción de la estructura de la base de datos en términos de las estructuras de datos que puede procesar un tipo de SGBD. El diseño lógico depende del tipo de SGBD que se vaya a utilizar, no depende del producto concreto.</p>
+         <p>El objetivo del diseño lógico es transformar el esquema genérico y conceptual en un modelo de datos determinado para un sistema de gestión de bases de datos determinado. 
+SISTEMA GESTOR DE BASE DE DATOS</p>
+        <p>Un sistema gestor de bases de datos o SGBD es el software que permite a los usuarios procesar, describir, administrar y recuperar los datos almacenados
+en una base de datos.</p>
+       </div>
+       <div><img src="imagenes/img7.jpg" width="70%" height="60%"></div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Diseño Fisico</h1>
+    </div>
+    <div data-role="content" align="center">
+        <div data-role="collapsible" data-content-theme="false">
+		   <h1>Informacion Extra</h1>
+	     <div>
+           <div style="width:40%;">
+             <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+              <li class="ui-first-child ui-last-child">
+                 <a href="https://www.ibm.com/support/knowledgecenter/es/SSEPEK_10.0.0/intro/src/tpc/db2z_physicaldatabasedesign.html" target="_self" data-role="button">
+                     <h2>Mas Info</h2>
+                 </a>
+              </li>
+             </ul>
+           </div>
+        </div>
+       </div>
+       <div>
+        <p>El diseño físico de la base de datos optimiza el rendimiento a la vez que asegura la integridad de los datos al evitar repeticiones innecesarias de datos. Durante el diseño físico, se transforman las entidades en tablas, las instancias en filas y los atributos en columnas.</p>
+        <p>Una vez completado el diseño lógico de la base de datos, se pasa al diseño físico. El personal que realiza el diseño debe tomar decisiones que afectan al diseño físico, algunas de las cuales se listan a continuación.</p>
+        <p>* Cómo convertir entidades en tablas físicas<br>
+* Qué atributos utilizar para las columnas de las tablas físicas<br>
+* Qué columnas de las tablas deben definirse como claves<br>
+* Qué índices deben definirse en las tablas<br>
+* Qué vistas deben definirse en las tablas<br>
+* Cómo desnormalizar las tablas<br>
+* Cómo resolver relaciones de varios con varios</p>
+<p>La tarea de crear el diseño físico es un trabajo que realmente no acaba nunca. Es necesario supervisar continuamente las características de rendimiento e integridad de los datos de la base de datos a medida que pasa el tiempo. Muchos factores necesitan mejoras periódicas en el diseño físico.</p>
+       </div>
+       <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus3','','imagenes/img9.jpg',1)"><img src="imagenes/img8.jpg" width="70%" height="60%" id="sus3"></a></div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Modelación avanzada de base de datos</h1>
+    </div>
+    <div data-role="content" align="center">
+         <div data-role="collapsible" data-content-theme="false">
+		   <h1>Informacion Extra</h1>
+	     <div>
+           <div style="width:40%;">
+             <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+              <li class="ui-first-child ui-last-child">
+                 <a href="http://www.monografias.com/trabajos84/modelamiento-base-datos/modelamiento-base-datos.shtml" target="_self" data-role="button">
+                     <h2>Mas Info</h2>
+                 </a>
+              </li>
+             </ul>
+           </div>
+        </div>
+       </div>
+        <div>
+         <p>Un modelo de datos es básicamente una "descripción" de algo conocido como contenedor de datos (algo en donde se guarda la información), así como de los métodos para almacenar y recuperar información de esos contenedores. Los modelos de datos no son cosas físicas: son abstracciones que permiten la implementación de un sistema eficiente de base de datos; por lo general se refieren a algoritmos, y conceptos matemáticos.</p>
+         <p>El diseño de una base de datos es un proceso complejo que abarca decisiones a muy distintos niveles. La complejidad se controla mejor si se descompone el problema en subproblemas y se resuelve cada uno de estos subproblemas independientemente, utilizando técnicas específicas. Así, el diseño de una base de datos se descompone en diseño conceptual, diseño lógico y diseño físico.</p>
+         <p>Son abstracciones que permiten la implementación de un sistema de base de datos en un proceso complejo que contienen decisiones en muchos distintos niveles, si se descompone el problema en sub problemas esto se resuelve independientemente, utilizando técnicas especificas. Así serán los siguientes modelos (Conceptual, Lógico, Físico).</p>
+        </div>
+        <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus4','','imagenes/img10.jpg',1)"><img src="imagenes/img11.png" width="70%" height="60%" id="sus4"></a> </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Programación avanzada TRANSACT SQL</h1>
+    </div>
+    <div data-role="content" align="center">
+         <div data-role="collapsible" data-content-theme="false">
+		   <h1>Informacion Extra</h1>
+	     <div>
+           <div style="width:40%;">
+             <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+              <li class="ui-first-child ui-last-child">
+                 <a href="file:///C:/Users/LENOVO/Downloads/Base%20de%20Datos%20Avanzado%20I.pdf" target="_self" data-role="button">
+                     <h2>Mas Info</h2>
+                 </a>
+              </li>
+             </ul>
+           </div>
+        </div>
+       </div>
+        <div>
+         <h3>Funciones definidas por el usuario</h3>
+         <p>Las funciones definidas por el usuario, en tiempo de ejecución de lenguaje
+TRANSACT-SQL o común (CLR), acepta parámetros, realiza una acción, como un
+cálculo complejo, y devuelve el resultado de esa acción como un valor. El valor de
+retorno puede ser un escalar (único) valor o una tabla.</p>
+<p>Las funciones de usuario son definidas para crear una rutina reutilizables que se
+pueden utilizar en las siguientes maneras:</p>
+<p>•En TRANSACT-SQL como SELECT<br>
+• En las aplicaciones de llamar a la función<br>
+• En la definición de otra función definida por el usuario<br>
+• Para parametrizar una vista o mejorar la funcionalidad de una vista indizada<br>
+• Para definir una columna en una tabla<br>
+• Para definir una restricción CHECK en una columna<br>
+• Para reemplazar a un procedimiento almacenado </p>
+<h3>Funciones escalares </h3>
+<p>Son aquellas funciones donde retornan un valor único: tipo de datos como int, Money,
+varchar, real, etc. Pueden ser utilizadas en cualquier lugar, incluso, incorporada dentro
+de las sentencias SQL</p>
+        </div>
+        <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus5','','imagenes/img13.jpg',1)"><img src="imagenes/img12.png" width="70%" height="60%" id="sus5"></a></div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Bases de datos XML</h1>
+    </div>
+    <div data-role="content" align="center">
+       <div>
+         <p>Base de datos XML se utiliza para almacenar la gran cantidad de información en formato XML. Como el uso de XML está aumentando en todos los campos, es necesario tener el lugar asegurado para almacenar los documentos XML. Los datos almacenados en la base de datos se puede consultar mediante XQuery, serializada y exportar a formato deseado.</p>
+         <h3>XML Base de datos activada</h3>
+         <p>XML base de datos activada no es sino la extensión de la conversión de documentos XML. Esta base de datos relacional, en caso de que los datos se almacenan en tablas que se componen de filas y columnas. Las tablas contienen conjunto de registros, que a su vez constan de campos.</p>
+         <h3>Base de datos XML nativa</h3>
+         <p>Base de datos XML nativa se basa en el contenedor en lugar de formato de tabla. Puede almacenar una gran cantidad de documentos y datos XML. Base de datos XML nativa es consultado por el XPath de expresiones.<br>Base de datos XML nativa tiene la ventaja sobre el XML-enabled base de datos. Es muy capaz de almacenar, consultar y mantener el documento XML de XML-enabled base de datos.</p>
+       </div>
+       <div><img src="imagenes/img14.jpg" width="60%" height="70%"></div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Seguridad y Restauración en SQL SERVER</h1>
+    </div>
+    <div data-role="content" align="center">
+       <div>
+         <p>El propósito de crear copias de seguridad de SQL Server es para que usted pueda recuperar una base de datos dañada. Sin embargo, copias de seguridad y restauración de los datos debe ser personalizado para un ambiente particular y debe trabajar con los recursos disponibles. Por lo tanto, un uso fiable de copia de seguridad y restauración para la recuperación exige una copia de seguridad y restauración de la estrategia.</p>
+         <p>Una copia de seguridad bien diseñado y restaurar la estrategia maximiza la disponibilidad de datos y minimiza la pérdida de datos, teniendo en cuenta sus necesidades de negocio en particular. </p>
+         <p>Copia de seguridad y restauración de las operaciones se producen en el contexto de un modelo de recuperación. Un modelo de recuperación es una propiedad de base de datos que controla el registro de transacciones que se gestiona. Además, el modelo
+de recuperación de una base de datos determina qué tipos de copias de seguridad y 182 CARRERAS PROFESIONALES CIBERTEC restauración son compatibles con la base de datos. Normalmente, una base de datos utiliza ya sea el modelo de recuperación simple o el modelo de recuperación completa. </p>
+       </div>
+       <div><img src="imagenes/img15.jpg" width="70%" height="60%"></div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina13" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Bases de datos en aplicaciones móviles</h1>
+    </div>
+    <div data-role="content" align="center">
+       <div>
+        <p>Es una Base de datos donde los usuarios pueden acceder a la información lejos de donde se encuentra almacenada la base de datos, se hace utilizando una conexión inalámbrica</p>
+        <p>Inicialmente las aplicaciones inalámbricas para dispositivos móviles eran programas totalmente desconectados de las empresas o sistemas de computación. Esto desde el punto de vista en tiempo real. Estas aplicaciones eran por lo general Palm Pilots limitadas a libreta de direcciones, horarios, etc. Esta pequeña base de datos estaba bien para ese momento, pero a medida que avanza la tecnología, las personas necesitan más.</p>
+        <p>Surgen las redes inalámbricas, pero existe el problema de disponibilidad de dispositivos inalámbricos y teléfonos WAP (Wireles Application Protocol) que se encuentran limitados en memoria y el tamaño de la pantalla para mostrar la información, además que introducir información en estos dispositivos móviles puede llegar a ser bastante difícil por su tamaño. De todas formas la tecnología es excelente, la habilidad que se tiene para conectarse al World Wide Web desde casi cualquier sitio en cualquier momento es una de las mayores ventajas que se tiene en la era de la información.</p>
+       </div>
+       <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus6','','imagenes/img17.png',1)"><img src="imagenes/img16.png" width="70%" height="60%" id="sus6"></a></div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+           <h4>App10 JDHO</h4>
+    </div>
+</div>
+</body>
+</html>
